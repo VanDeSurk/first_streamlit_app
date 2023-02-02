@@ -46,7 +46,7 @@ except URLError as e:
   streamlit.error()
 
 # don't run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 # Add a button to load the fruit
 if streamlit.button('Get Fruit Load List'):
